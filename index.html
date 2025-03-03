@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Boss Café - Alaminos City</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #fff;
+        }
+
+        header {
+            background-color: #ffcc00;
+            color: #121212;
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(255, 204, 0, 0.2);
+        }
+
+        h2 {
+            text-align: center;
+            border-bottom: 3px solid #ffcc00;
+            padding-bottom: 10px;
+            color: #ffcc00;
+        }
+
+        .menu-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .menu-item {
+            background-color: #262626;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .menu-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(255, 204, 0, 0.3);
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .menu-description h3 {
+            color: #ffcc00;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #ffcc00;
+            color: #121212;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tea Boss Café - Alaminos</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="menu">
+        <h2>Our Best Sellers</h2>
+        <div class="menu-container">
+            <div class="menu-item" data-category="milk tea">
+                <img src="https://media-hosting.imagekit.io//5a6eec90a7184034/inbound2176654384981106872.jpg?Expires=1835264085&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=xPMoCZ482ira8qiCak6BF15~MWRaE9t7n2LKHABS0l3fQRoxAEyrSsfgYjmO2EcwaTp7k0yqnkdEGYVvC~nbV-E0WnoEWmRG1mw9kBfWJHfhqzlhblHA8ZVVzyPXcEyjR1SJxjZJa1BcMeVCTYlpb7HDy2~uWewvoTzJQ-yRl9B65VGjUCLMq752e0WsdLKgtmj5PD3IkKizqzxS9nt3nl7NuuyYi8WGkVZxPphMj0fmbv7t63frpontBvzFKNfiMTh3ZVJSPbFYQfMKmouc46rPVObkA5SvaG4WuOcMu3euwU6fY~1BMEMr8b81FwA-g9lzE1eG87Nj5Flz8x5jeQ__" alt="Chocolate Cream Cheese">
+                <div class="menu-description">
+                    <h3>Chocolate Cream Cheese</h3>
+                    <p>Rich chocolate milk tea topped with creamy cheese foam.</p>
+                </div>
+            </div>
+            <div class="menu-item" data-category="fruit tea">
+                <img src="https://media-hosting.imagekit.io//89a39cab4f6f412c/inbound2791554927327775391.jpg?Expires=1835264205&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=prT7hmP56r1XFQ4Y5FmHKDc~peVIyuK7E9if8fHl-rZvfRcjHLngKxjJTv5Zlkvph~szjcgvRA4g6F6Z8ZtM1CVUtnf9tVSPWTpOgEneRLTtBq77uRNjcqy5HE0P69h35C2r5P1lU5y92gNiKDw8I3-K3I2TBivxQhmpbSKCsls7dM1bJpnluyLWWZtfB7UeXknQ27sRR-4Qs44-DT6q-qcQZoRu24tHb7yr77mvMs1AQBDPw-m4FfQAkgV7AcRTxVBkUb5Mvz3VnKHIq3hurjhyLRtOaNf6Gi3eUgcbYJRRU2taVaHWylZHT6ta10iZV7ee8NepLjIWVTA0-LSIKg__" alt="Blueberry Fruit Tea">
+                <div class="menu-description">
+                    <h3>Blueberry Fruit Tea</h3>
+                    <p>Delicious blueberry fruit tea bursting with flavor.</p>
+                </div>
+            </div>
+            <div class="menu-item" data-category="cream cheese">
+                <img src="https://media-hosting.imagekit.io//8697c7da62c04119/FB_IMG_1740661548528.jpg?Expires=1835270511&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ZnGCT6VctFgQ~xgvqhg2~-JifwOMupFo8A9xY71rowsgXgDDc6APGRGebgg41iSMpRtdkhUqBD6utRSWehlz4y4tzgLqwJIjQM2J~vQ9FYLbrgybMSjggLJgBrlRO78y105-HRnjJwMGxDjnBA5S7YglESAp9lcO~370C5F884Q49uoW2mgFL7Vc~yEgpLEHwjBniqQzXTu-mVLXgDs7E76qa31rp6tmnbxPGQyDaPHM5GeHogvoskrAVF8CLDMhWsQfEcfvYRPe4MmuZG8yreU~eNWTPa6GGNz~GIBPqri9I1M~oqp~Z1KfnaSFGm6pOtiF7zDXjtmC~dRlxEHa6g__" alt="Watermelon Cream Cheese">
+                <div class="menu-description">
+                    <h3>Watermelon Cream Cheese</h3>
+                    <p>Refreshing watermelon drink topped with creamy cheese foam.</p>
+                </div>
+            </div>
+            <div class="menu-item" data-category="frappe">
+                <img src="https://media-hosting.imagekit.io//657ab384cbb3446d/FB_IMG_1740661779396.jpg?Expires=1835270609&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=LiLq6giRpznQ7NM-6mZkOaDIziX7y3ftq~N8tLJMDQraZ9bR5ApD2oYfgCQJJ3NoDUPV170U3wxMCuTs8cB0VxWtvzschrmwwoV9XOZobsrIS5d00dTq2zS8p8Nnfdy953F3rAQEBtQDWmSVXlydmh0s8K~Kfdv1UtPrwKBQj5XMa2uTOGDHPYWvp1ySIlRn08nNjeJ7JWQl3EPCAQmdsxBrB5VgPoiGdZ6McVarc2njic8lRhgklaSRXjGH2scekaea8QXFFZtRyQO1LOKakvLhJhguKM1BYaJIX2r716S70KtjxSTlaUbS-5NzOAiBMDZdgLkcIXiGZEQl7Glb9A__" alt="Cookies & Cream Frappe">
+                <div class="menu-description">
+                    <h3>Cookies & Cream Frappe</h3>
+                    <p>A creamy blend of cookies and milk, topped with whipped cream.</p>
+                </div>
+            </div>
+            <div class="menu-item" data-category="frappe">
+                <img src="https://media-hosting.imagekit.io//5baec4a6506b4105/FB_IMG_1740661830505.jpg?Expires=1835270628&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=PjvIGu12I2J-K2YD5NdCl5eZGXVLUmIakk--8QZR6LXDenQITrrQ7H6YLBJihFz5xfVIT8XD5hmo8WbNoP-bhzNLDSQG2EMYrbL84~ShKx0gqJkR1wxoCSF4oOgd2~GSi0JIjzUCw1hKEfnsiIWQTMLYzUzareTxO~OeiiuZ-Rb0~a4OIuJHwzDY1yVdHlc3Vmy9dDvnTiMrSN8QI9kXTz5b78c-9Ycq-BxyLiyVOCBW5fINcjP9U8c3n5tZGYFdG7haHV0s2Fb5H2clBfuWfjLLOuLHG-h~DhE-533Hqkhodn6a49PnrmfeUlREb5TPZSNtkoZ3iw7LEvQYFJfokg__" alt="Strawberry Frappe">
+                <div class="menu-description">
+                    <h3>Strawberry Frappe</h3>
+                    <p>Sweet and creamy strawberry frappe, perfect for any day.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p style="text-align: center;">Welcome to Tea Boss Café, where we serve the best bubble tea and refreshing drinks in Alaminos City! Our mission is to provide high-quality, delicious beverages made with the finest ingredients. Visit us and experience the taste of authentic milk tea.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p style="text-align: center;">Have questions? Reach out to us:</p>
+        <p style="text-align: center;"><strong>Phone:</strong> 0961-2156466</p>
+        <p style="text-align: center;"><strong>Facebook:</strong> <a href="https://www.facebook.com/teabosscafe01/" target="_blank" style="color: #ffcc00;">Tea Boss Café Alaminos</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tea Boss Café. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
